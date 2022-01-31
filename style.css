@@ -36,7 +36,7 @@ background-clip: text;
 } 
 
 .site-main .site-banner {
-  background: url(../Images/images.png) no-repeat  ;
+  background: url(images.png) no-repeat  ;
   background-position: 0% 0%;
   
 }
@@ -131,7 +131,7 @@ filter: brightness(0,15);
 }
 
 .site-main .brand-area .experience-area .years-area{
-  /* background:url(../Images/pngwing.com.png); */
+  /* background:url(../Imagespngwing.com.png); */
   padding: 2rem 0;
   width: 40rem;
   height: 18rem;
@@ -287,7 +287,7 @@ filter: brightness(0,15);
 
 /* subscribe me section start */
 .site-main .subscribe-area .subscribe{
-  background: url(../Images/subscribe.png) no-repeat ;
+  background: url(subscribe.png) no-repeat ;
   padding: 10rem 0;
   margin: 3rem auto;
   
@@ -321,6 +321,6 @@ filter: brightness(0,15);
 /* footer area start */
 .footer-area{
   padding: 5rem 0;
-  background: url(../Images/footer.png);
+  background: url(footer.png);
 }
 /* footer area end */
