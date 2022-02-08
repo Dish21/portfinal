@@ -1,7 +1,7 @@
-@import url(./partials/variables.css); 
+@import url(variables.css); 
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
-@import url(./partials/global.css);
+@import url(global.css);
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
@@ -113,7 +113,7 @@ background-clip: text;
 } 
 
 .site-main .site-banner {
-  background: url(../Images/images.png) no-repeat  ;
+  background: url(images.png) no-repeat  ;
   background-position: 0% 0%;
   
 }
@@ -364,7 +364,8 @@ filter: brightness(0,15);
 
 /* subscribe me section start */
 .site-main .subscribe-area .subscribe{
-  background: url(../Images/subscribe.png) no-repeat ;
+  background: url(subscribe.png) no-repeat;
+
   padding: 10rem 0;
   margin: 3rem auto;
   
@@ -398,6 +399,6 @@ filter: brightness(0,15);
 /* footer area start */
 .footer-area{
   padding: 5rem 0;
-  background: url(../Images/footer.png);
+  background: url(footer.png);
 }
 /* footer area end */
