@@ -1,0 +1,403 @@
+@import url(./partials/variables.css); 
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+@import url(./partials/global.css);
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+/* .header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+} */
+
+*{
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+  /* background-color: whitesmoke; */
+
+color: white;
+}
+
+.brand-title{
+  font-size: 1.5rem;
+  margin: .5rem;
+
+}
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+display: flex;
+
+}
+.navbar-links li{
+  list-style: none;
+
+}
+
+.navbar-links li a{
+  text-decoration: none;
+  color:#8a2be2;
+  padding: 2rem;
+  display: block;
+  font-family: var(--ave);
+  
+}
+
+.navbar-links li:hover {
+  background-color:cyan;
+  height: fit-content;
+  height: min-content;
+  border-radius: 100px;
+}
+
+.toggle{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  /* display: none; */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  
+  height: 21px;
+  margin-top: 4rem;
+  
+
+}
+.toggle .bar{
+  
+  height:3px;
+  width: 100%;
+background-color: black;
+  
+  border-radius: 10px;
+  margin: .3rem;
+  
+
+}
+
+  
+
+
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+.header_area .main-menu .navbar-nav .nav-link{
+
+   font-family:var(--indie);
+  
+    text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: rgb(206, 35, 35);  
+}
+
+.header_area .main-menu .navbar-nav .active{
+background: var(--gradient-color);
+-webkit-background-clip: text; 
+-webkit-text-fill-color: transparent;
+background-clip: text;
+} 
+.header_area .main-menu .navbar-nav a:hover{
+background: var(--gradient-color);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+} 
+
+.site-main .site-banner {
+  background: url(../Images/images.png) no-repeat  ;
+  background-position: 0% 0%;
+  
+}
+
+.site-main .site-banner .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+.site-main .site-banner .site-title h3::after{
+  content: " ";
+  height: 2px;
+  width: 18vw;
+  background-color: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+
+
+}
+
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+}
+.site-main .site-banner .site-title h1{
+  font-size: 5rem;
+}
+.site-main .site-banner .banner-image > img{
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+/* about section */
+.site-main .about-area{
+  padding: 8rem 5rem ;
+}
+
+.site-main .about-area .about-title h2>span{
+
+  display: block;
+  font: normal bold 49px;
+
+  letter-spacing: 10px;
+
+
+  
+}
+
+
+.site-main .about-area .about-title .paragraph>p{
+  padding: .4rem 0;
+
+}
+/* end about area */
+
+/* start brand area */
+
+.site-main .brand-area{
+  padding: 1rem 20rem;
+  margin-top:4rem ;
+}
+
+.site-main .brand-area .first-area .col-lg-4{
+   display: flex;
+   justify-content: center;
+}
+/* end brand area */
+.site-main .brand-area .first-area .col-lf-4 > .single-brand{
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: .9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform .4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand> img{
+  width: 50%;
+  margin: 15px;
+  
+}
+.site-main .brand-area .first-row .col-lg-4 >.single-brand:hover{
+
+box-shadow: var(--box-shadow);
+transform: scale(1,1); 
+ }
+.site-main .brand-area .first-row .col-lg-4 >.single-brand:hover>img{
+
+filter: brightness(0,15);
+}
+
+.site-main .brand-area .experience-area .years-area{
+  /* background:url(../Images/pngwing.com.png); */
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+  padding-left:8rem;
+  position: relative;
+
+}
+
+.site-main .brand-area .experience-area .bg-panel{
+  position: absolute;
+  left: -190px ; top: 0%;
+  background: #e029290a;
+  width: 400px;
+  height: 400px;
+  margin-left: 340px;
+  z-index: -1;
+  
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+  font: normal bold 84px/40 ;
+  color: var(--primary-color);
+  z-index:2;
+}
+
+.site-main .brand-area .experience-area .years-area h2>span{
+  font: normal 600 22px/30px ;
+  font-family: cursive;
+}
+.site-main .brand-area .experience-area .call-area{
+  padding-left: 10rem;
+}
+
+/* services section */
+.site-main.servies-area{
+ padding: 7rem 2rem; 
+}
+
+.site-main .services-area .services-title{
+  padding: 0 14rem;
+}
+
+.site-main .services-area.services-title h1{
+  font-size: 35px;
+}
+
+
+.services:hover{
+  
+  box-shadow: var(--box-shadow2);
+  transition: box-shadow .6s ease;
+}
+
+.services{
+  background: black; 
+  background: rgba(230, 252,253,.6);
+  padding: 2rem 0;
+  width: 16rem;
+  margin-top: 3rem;
+  transition: box-shadow .5s ease; 
+ 
+
+}
+
+
+
+
+/* end of services area */
+/* project area */
+.project-area{
+  padding: 4rem 0 ;
+
+
+}
+.button-group{
+  margin-bottom: 2rem;
+
+}
+
+.site-main .project-area .button-group button{
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px;
+  text-transform: uppercase;
+
+}
+
+
+
+.our-project .title h4{
+  
+  font-family: var(--ave);
+ }
+
+ .project-area .button-group button + button{
+   padding-left: 1rem;
+
+ }
+ .project-area .grid .our-project > .title h4{
+   font: normal 700 16/25px;
+
+ }
+
+ button:focus,
+ button:active
+ button:hover
+ .btn:active,
+ .btn.active{
+   outline: 0px !important;
+   box-shadow: none !important;
+ }
+
+/* clients area start */
+.site-main .about-area .about.title p{
+  padding: 1rem 7rem;
+}
+.site-main .about-area .client{
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+  padding: 2rem;
+}
+.site-main .about-area .client .about-client{
+  padding-top: 2rem;
+
+}
+
+ .site-main .about-area .client .about-client h4{
+   font: normal 500 21px/20px var(--ave);
+ }
+ .site-main .about-area .client .about-client p{
+   font-size: 14px;
+ }
+
+ .site-main .about-area .owl-carousel .owl-item{
+   display: flex;
+   justify-content: center;
+   padding: 0 1.5rem;
+
+ }
+
+ .site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+   background: var(--gradient-color);
+   width: 12px;
+   height: 12px;
+
+ }
+/* end clients area */
+
+/* subscribe me section start */
+.site-main .subscribe-area .subscribe{
+  background: url(../Images/subscribe.png) no-repeat ;
+  padding: 10rem 0;
+  margin: 3rem auto;
+  
+}
+.site-main .subscribe-area .subscribe .subscribe-title h4{
+  font: normal 700 30px/30px var(--pop);
+  color: rgb(221, 122, 122);
+}
+.site-main .subscribe-area .subscribe form .input-textbox input{
+  width: 350px;
+  padding:  1.5rem 1rem;
+  border: 2px solid whitesmoke;
+  background: transparent;
+  color: white;
+  font: normal 500 17px/20px var(--ave);
+}
+.site-main .subscribe-area .subscribe form .input-textbox input::placeholder{
+  color:rgb(231, 187, 187);
+  
+
+  }
+
+  .site-main .subscribe-area .subscribe form .btn-submit button{
+    background-color: whitesmoke;
+    color: black;
+    padding: .7rem;
+  }
+
+/* subscribe me section end */
+
+/* footer area start */
+.footer-area{
+  padding: 5rem 0;
+  background: url(../Images/footer.png);
+}
+/* footer area end */
