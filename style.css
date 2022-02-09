@@ -375,7 +375,7 @@ filter: brightness(0,15);
   color: rgb(221, 122, 122);
 }
 .site-main .subscribe-area .subscribe form .input-textbox input{
-  width: 350px;
+  width: 300px;
   padding:  1.5rem 1rem;
   border: 2px solid whitesmoke;
   background: transparent;
