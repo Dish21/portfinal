@@ -44,10 +44,7 @@
         padding: 0%;
 
     }
-    .site-main .subscribe-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin :5%;
-    }
+   
 }
     @media only screen and ( max-width:1910px){
         .header_area .main-menu .navbar{
@@ -65,7 +62,7 @@
 
     }
 
-    @media (max-width: 400px){
+    @media (max-width: 500px){
         .toggle .bar{
             display: block;
         }
@@ -92,6 +89,25 @@
         .navbar-links.active{
             display: flex;
         }
+}
+
+@media (max-width:575.9px){
+    
+    .site-main .subscribe-area .subscribe form .btn-submit button{
+    
+        
+        position: static;
+
+
+    }
+    .site-main .subscribe-area .subscribe form .input-textbox input{
+        margin-left: auto;
+  margin-bottom: 1rem;
+  /* margin-left: 1rem; */
+  
+ 
+    }
+
 }
  
 
