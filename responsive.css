@@ -65,7 +65,7 @@
 
     }
 
-    @media (max-width: 792px){
+    @media (max-width: 400px){
         .toggle .bar{
             display: block;
         }
